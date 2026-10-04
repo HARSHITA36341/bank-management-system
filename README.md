@@ -3,7 +3,14 @@
 Command-line banking app in Python and MySQL: create accounts, deposit, withdraw and view transaction statements using SQL transactions (commit/rollback).
 
 ## Demo
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/3ee32f55-d8af-4577-bcb7-13ee3ebfa845" />
+
+**Account details, a non-existing account, and a deposit**
+
+<img src="demo_account_details.png" alt="Account details demo" width="700">
+
+**Full transaction statement**
+
+<img src="demo_statement.png" alt="Statement demo" width="700">
 
 ## Features
 - Create a bank account with an opening balance
@@ -29,10 +36,4 @@ Two tables: `accounts` (account_no, name, balance) and `transactions` (id, accou
 1. Install MySQL, Python 3 and Jupyter Notebook.
 2. Run `schema.sql` in MySQL Workbench to create the database and tables.
 3. Install the dependency: `pip install mysql-connector-python`
-4. Open `bank-management-system.ipynb`, run the cells from top to bottom, and enter your MySQL password when asked.
-5. The last cell shows the menu: choose an option from 1 to 6.
-
-## Possible improvements
-- PIN-based login for each account
-- Money transfer between two accounts
-- A web API using Django or FastAPI
+4. Open `bank-management-system.ipynb`, run the
